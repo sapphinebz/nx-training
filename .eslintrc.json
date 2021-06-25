@@ -16,7 +16,9 @@
                 "sourceTag": "*",
                 "onlyDependOnLibsWithTags": ["*"]
               }
-            ]
+            ],
+            "arrow-body-style": "off",
+            "@typescript-eslint/member-ordering": "off"
           }
         ]
       }

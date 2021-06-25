@@ -1,0 +1,30 @@
+<div *ngFor="let product of $any(products$ | async)">
+  <div>{{ product.name }}</div>
+
+  <img *dlImageLoader="let url" [src]="url" />
+</div>
+
+<!-- <div dlImageLoader>
+    Hello dlImageLoader
+</div> -->
+<!-- <digital-lending-workspace-my-data-view [value]="$any(products$ | async)">
+    <ng-template #rowTemplate let-rowData>
+        <div>{{rowData.name}} </div>
+    </ng-template>
+</digital-lending-workspace-my-data-view> -->
+
+<!-- <ng-template #myTemplate let-something>
+    <div>
+        Hello {{something}}
+    </div>
+</ng-template> -->
+
+<!-- <div *ngFor="let name of list">
+    <ng-container *ngTemplateOutlet="myTemplate;context:{$implicit:name}"></ng-container>
+</div> -->
+
+<!-- <ng-container *ngTemplateOutlet="myTemplate;context:{$implicit:'Thanadit'}"></ng-container>
+<ng-container *ngTemplateOutlet="myTemplate;context:{$implicit:'Frog'}"></ng-container>
+<ng-container *ngTemplateOutlet="myTemplate;context:{$implicit:'Rutung'}"></ng-container>
+<ng-container *ngTemplateOutlet="myTemplate;context:{$implicit:'Cat'}"></ng-container>
+<ng-container *ngTemplateOutlet="myTemplate;context:{$implicit:'Cat'}"></ng-container> -->

@@ -1,3 +1,3 @@
 module.exports = {
-  projects: ['<rootDir>/apps/digital-lending'],
+  projects: ['<rootDir>/apps/digital-lending', '<rootDir>/libs/image-loader'],
 };
